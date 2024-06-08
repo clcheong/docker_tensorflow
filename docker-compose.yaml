@@ -5,7 +5,7 @@ services:
     ports: 
       - 8888:8888
     volumes:
-      - ./mnt/c/users/user/projects/docker_tensorflow:/tf-docker
+      - ./tf-docker:/tf-docker
     deploy:
       resources:
         reservations:
